@@ -3,8 +3,6 @@ from flask import Flask, request
 
 GOOGLE_URL = 'http://maps.googleapis.com/maps/api/geocode/json'
 HERE_URL = 'http://geocoder.cit.api.here.com/6.2/geocode.json'
-HERE_APP_ID = 'Mbmdr17KU5cNuYNlYlKI'
-HERE_APP_CODE = 'g_gAORxfN4j7U7SxUKGFqg'
 
 app = Flask(__name__)
 
